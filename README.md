@@ -18,18 +18,14 @@ End the program
 #Developed by: JAYASURIYA J
 #RegisterNumber:212223230088
 import numpy as np
-
-# Define the coefficient matrix A
+Define the coefficient matrix A
 A = np.array([[1, 3],
               [2, 5]])
-
-# Define the constant matrix B
+Define the constant matrix B
 B = np.array([5, -3])
-
-# Solve the system of equations
+ Solve the system of equations
 solution = np.linalg.solve(A, B)
-
-# Print the solution in the desired format
+ Print the solution in the desired format
 print(solution)
 
 ## Output:
